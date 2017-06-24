@@ -6,13 +6,12 @@ import java.util.Date;
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
 
+
 /**
  * Created by takahiro chiku on 2017/06/24.
  */
 
 public class Task extends RealmObject implements Serializable {
-    //シリアライズとはデータを丸ごとファイルに保存したり、
-    // TaskAppでいうと別のActivityに渡すことができるようにすること
     private String title; // タイトル
     private String contents; // 内容
     private Date date; // 日時

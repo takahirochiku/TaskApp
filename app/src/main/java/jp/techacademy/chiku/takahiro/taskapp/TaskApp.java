@@ -4,10 +4,6 @@ import android.app.Application;
 
 import io.realm.Realm;
 
-/**
- * Created by takahiro chiku on 2017/06/24.
- */
-
 public class TaskApp extends Application {
     @Override
     public void onCreate() {
